@@ -1,0 +1,66 @@
+﻿@model ModelPoco.Product
+
+@{
+    ViewBag.Title = @Html.DisplayFor(model => model.Name);
+}
+
+<h2>@Html.DisplayFor(model => model.Name)</h2>
+@using (Html.BeginForm())
+{ 
+<div>
+    <div>
+        <hr />
+        <div class="col-md-4">
+            <img class="img-thumbnail" src="@Model.ImageLink.ToString()" alt="IMAGES" style="width:200px;height:250px" />
+        </div>
+
+        <div class="col-md-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla odio, iaculis eu tincidunt a, vehicula nec lacus.
+            Phasellus erat nunc, accumsan non sapien nec, rutrum tempor lorem. Praesent sapien diam, rhoncus ut velit quis, rutrum placerat nunc.
+            Mauris non mi nulla. Donec faucibus magna et ex facilisis malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+            per inceptos himenaeos. Aenean vitae luctus neque. Fusce nec sem sed diam pulvinar tempus. Morbi vitae luctus metus, nec maximus nisi.
+            Nulla posuere gravida sapien sed tincidunt. Nullam eget eros orci. Nunc vehicula leo vel massa iaculis, in fringilla ipsum consequat.
+            In molestie felis vel aliquam dictum. Aenean egestas et libero vitae feugiat. Sed velit dui, tincidunt hendrerit cursus vulputate,
+            ultricies quis justo. Vivamus id molestie nibh.
+        </div>
+
+        <div class="col-md-4">
+            <div>
+                <font size="30">
+                    £@Html.DisplayFor(model => model.Price)
+                </font>
+
+            </div>
+            <div>
+                @if (Request.IsAuthenticated)
+                {
+                    <p>
+                        @Html.ActionLink("Add To Basket", "AddToBasket", new { productId = Model.ProductId }, new { @class = "btn btn-default" })
+                        
+                    </p>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+}

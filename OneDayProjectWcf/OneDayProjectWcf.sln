@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneDayProjectWcf", "OneDayProjectWcf\OneDayProjectWcf.csproj", "{63A4C236-F6AD-48FC-AE8B-E1B36807F40A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceHost", "ServiceHost\ServiceHost.csproj", "{285EC967-4D52-4915-AD43-93C260B94B30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63A4C236-F6AD-48FC-AE8B-E1B36807F40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A4C236-F6AD-48FC-AE8B-E1B36807F40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A4C236-F6AD-48FC-AE8B-E1B36807F40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A4C236-F6AD-48FC-AE8B-E1B36807F40A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285EC967-4D52-4915-AD43-93C260B94B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285EC967-4D52-4915-AD43-93C260B94B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285EC967-4D52-4915-AD43-93C260B94B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285EC967-4D52-4915-AD43-93C260B94B30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

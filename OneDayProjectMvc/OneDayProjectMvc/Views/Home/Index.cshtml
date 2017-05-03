@@ -1,0 +1,17 @@
+﻿@model IEnumerable<ModelPoco.Product>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="row">
+    @foreach (var item in Model.Take(6))
+    {
+        <div class="col-md-4">
+            <h2>@Html.DisplayFor(modelItem => item.Name)</h2>
+            <p><img class="img-thumbnail" src="@Url.Content(item.ImageLink)" alt="IMAGES" style="width:200px;height:250px" /></p>
+            <p>£@Html.DisplayFor(modelItem => item.Price)</p>
+            <p>@Html.ActionLink("Details", "Details", "Product", new { id = item.ProductId }, new { @class = "btn btn-default" })</p>
+        </div>
+    }
+</div>

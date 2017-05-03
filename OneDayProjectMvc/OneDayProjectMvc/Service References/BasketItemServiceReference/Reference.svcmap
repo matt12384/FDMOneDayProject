@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fd7e48c1-587c-4a8a-acb1-35eac4ed2483" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies>
+      <ReferencedAssembly AssemblyName="ModelPoco" />
+    </ReferencedAssemblies>
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:64906/BasketItemService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BasketItemService.xsd" MetadataType="Schema" ID="3f3db7c1-3359-4244-8256-8eb5ca410e26" SourceId="1" SourceUrl="http://localhost:64906/BasketItemService.svc?xsd=xsd2" />
+    <MetadataFile FileName="BasketItemService1.xsd" MetadataType="Schema" ID="ed562f6c-6014-4a00-9d31-6e61a254894d" SourceId="1" SourceUrl="http://localhost:64906/BasketItemService.svc?xsd=xsd0" />
+    <MetadataFile FileName="BasketItemService2.xsd" MetadataType="Schema" ID="8c4acd84-4490-42bb-afe4-63a45497bd8e" SourceId="1" SourceUrl="http://localhost:64906/BasketItemService.svc?xsd=xsd1" />
+    <MetadataFile FileName="BasketItemService.disco" MetadataType="Disco" ID="3c13662b-27a7-43af-9a9d-a652941419be" SourceId="1" SourceUrl="http://localhost:64906/BasketItemService.svc?disco" />
+    <MetadataFile FileName="BasketItemService.wsdl" MetadataType="Wsdl" ID="969988bb-7bec-489b-b20f-626ed318a6c5" SourceId="1" SourceUrl="http://localhost:64906/BasketItemService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
